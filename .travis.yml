@@ -11,7 +11,7 @@ php: [7.1]
 env:
   global:
     # Node version needed for zombie 3.0.
-    - NODE_VERSION='^11.10.1'
+    - NODE_VERSION='11.10.1'
     # Force binding to IPv4 as Zombie and PHP seem to have a different resolution for localhost on Travis.
     - MINK_HOST=127.0.0.1:8002
 
